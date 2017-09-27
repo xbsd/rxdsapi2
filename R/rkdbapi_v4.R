@@ -8,11 +8,11 @@
 # if(!'rkdb' %in% rownames(installed.packages())){devtools::install_github('kxsystems/rkdb', quiet=TRUE)}
 
 # Load Libraries
-library(rkdb)
-library(bit64)
-library(lubridate)
-library(jsonlite)
-library(data.table)
+# library(rkdb)
+# library(bit64)
+# library(lubridate)
+# library(jsonlite)
+# library(data.table)
 
 # test_connection <- function() {
 #   ifelse("sanofi_api_r_kdb_server" %in% ls(envir = .GlobalEnv),paste0("Using RXDS Server:",sanofi_api_r_kdb_server),sanofi_api_r_kdb_server <<- readline(prompt="Enter Target RXDS Servername: "))
