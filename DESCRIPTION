@@ -1,0 +1,24 @@
+Package: rxdsapi
+Type: Package
+Title: API for RXDS KDB+ Applications
+Version: 0.1.0
+Author: person("Nataraj", "Dasgupta", email = "nd@rxdatascience.com", 
+  role = c("aut", "cre"))
+Maintainer: The package maintainer <nd@rxdatascience.com>
+Description: Provides access to datasets hosted on a KDB+ environment using
+    simple R functions for interacting with the data. The API includes
+    options for connecting to (and defining) target KDB+ servers. Basic error
+    handling features and other functionalities have also been added.
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Depends: R (>= 3.1.0)
+Imports: data.table,
+    lubridate,
+    jsonlite,
+    devtools,
+    rkdb
+Suggests: bit64
+Remotes: github::KxSystems/rkdb
+ByteCompile: TRUE

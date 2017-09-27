@@ -1,0 +1,102 @@
+get_inpatient_admissions
+devtools::load_all(".")
+devtools::load_all(".")
+get_inpatient_admissions
+get_patient_id_labs(start="2008.01.01",end="2008.04.01",optional_lab_codes="2085-9",return_all_flag=F,get_stats="TRUE")
+devtools::load_all(".")
+get_patient_id_labs(start="2008.01.01",end="2008.04.01",optional_lab_codes="2085-9",return_all_flag=F,get_stats="TRUE")
+get_patient_id_labs(start="2008.01.01",end="2008.04.01",optional_lab_codes="2085-9",return_all_flag=F,get_stats="TRUE")
+devtools::load_all(".")
+get_patient_id_labs(start="2008.01.01",end="2008.04.01",optional_lab_codes="2085-9",return_all_flag=F,get_stats="TRUE")
+library(rxdsapi)
+get_patient_id_labs(start="2008.01.01",end="2008.04.01",optional_lab_codes="2085-9",return_all_flag=F,get_stats="TRUE")
+get_q_object("inpatient_admissions")
+devtools::use_package("data.table")
+devtools::use_package("lubridate")
+devtools::use_package("jsonlite")
+devtools::use_package("bit64")
+person("Hadley", "Wickham", email = "hadley@rstudio.com",
+role = c("aut", "cre"))
+library(greta)
+?`distribution
+`
+?distribution
+?mcmc
+?opt
+?opt
+library(ggplot2)
+?qplot
+?distribution
+?transforms
+?open_connection
+library(rxdsapi)
+get_outpatient_services()
+get_outpatient_services
+?get_outpatient_services
+document()
+library(roxygen2)
+library(devtools)
+document()
+library(rxdsapi)
+?get_outpatient_services
+library(rxdsapi)
+?get_outpatient_services
+get_outpatient_services(columns_to_return=c("age","month"),start="2015.03.04",end="2015.03.07",
+optional_diag_codes=c("32723","4439"), optional_enrolids=c(8601,12901),return_all_flag=F,get_stats="TRUE")
+?get_patient_id_outpatient
+source('~/R/packages/rxdsapi/R/get_inpatient_admissions.R')
+q_set_operation(list(c(1,2,3),c(3,4,5)), set_operation = "union")
+q_set_operation <- function(list_of_q_vectors="__NULL__", set_operation="__NULL__",api_function="q_set_operation",return_all_flag=F,...){
+ifelse(any(identical(list_of_q_vectors,"__NULL__"),identical(set_operation,"__NULL")), return (list_of_q_vectors),"")
+paramList     <- list(list_of_q_vectors=list_of_q_vectors,set_operation=set_operation,api_function=api_function,return_all_flag=return_all_flag,...)
+queryResult   <- process_query(api_function=api_function,queryArgs=paramList,...)
+queryResult
+}
+q_set_operation(list(c(1,2,3),c(3,4,5)), set_operation = "union")
+q_set_operation(list(c(1,2,3),c(3,4,5)), set_operation = "intersectio")
+q_set_operation(list(c(1,2,3),c(3,4,5)), set_operation = "intersection")
+q_set_operation(list(c(1,2,3),c(3,4,5)), set_operation = "minus")
+q_set_operation(list(c(1,2,3),c(3,4,5)), set_operation = "complement")
+q_set_operation(list(c(1,2,3),c(3,4,5)), set_operation = "union")
+q_set_operation(list(c(1,2,3),c(3,4,5)), set_operation = "intersection")
+q_set_operation(list(c(1,2,3),c(3,4,5)), set_operation = "complement")
+get_q_object <- function(q_object_name,api_function="get_q_object",return_all_flag=F,...){
+paramList     <- list(q_object_name=q_object_name,return_all_flag=return_all_flag,api_function=api_function,...)
+queryResult   <- process_query(api_function=api_function,queryArgs=paramList,...)
+queryResult
+}
+get_q_obect("APP_QUERY")
+get_q_object <- function(q_object_name,api_function="get_q_object",return_all_flag=F,...){
+paramList     <- list(q_object_name=q_object_name,return_all_flag=return_all_flag,api_function=api_function,...)
+queryResult   <- process_query(api_function=api_function,queryArgs=paramList,...)
+queryResult
+}
+get_q_object("APP_QUERY")
+get_q_table("dim_cap")
+system("id")
+library(rxdsapi)
+library(rxdsapi)
+?get_q_table
+?get_outpatient_services
+document()
+?get_outpatient_services
+?get_outpatient_services
+?get_patient_id_outpatient
+library(rxdsapi)
+?get_q_object
+?get_patient_id_inpatient_admissions
+library(rxdsapi)
+?get_q_object
+?get_outpatient_services
+?get_inpatient_services
+?get_inpatient_admissions
+?get_lab_data
+library(rxdsapi)
+?get_inpatient_admissions
+?get_lab_data
+?get_patient_id_enrollment
+?q_utilities
+?utilities
+?process_query
+?get_prescriptions
+?get_outpatient_services

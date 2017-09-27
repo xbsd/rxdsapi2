@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "Package: rxdsapi\nType: Package\nTitle: API for RXDS KDB+ Applications\nVersion: 0.1.0\nAuthor: person(\"Nataraj\", \"Dasgupta\", email = \"nd@rxdatascience.com\", \n  role = c(\"aut\", \"cre\"))\nMaintainer: The package maintainer <nd@rxdatascience.com>\nDescription: Provides access to datasets hosted on a KDB+ environment using\n    simple R functions for interacting with the data. The API includes\n    options for connecting to (and defining) target KDB+ servers. Basic error\n    handling features and other functionalities have also been added.\nLicense: file LICENSE\nEncoding: UTF-8\nLazyData: true\nRoxygenNote: 6.0.1\nDepends: R (>= 3.1.0)\nImports: data.table,\n    lubridate,\n    jsonlite,\n    devtools,\n    rkdb\nSuggests: bit64\nRemotes: github::KxSystems/rkdb\nByteCompile: TRUE\n",
+    "created" : 1506472382595.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "648303721",
+    "id" : "D66006E1",
+    "lastKnownWriteTime" : 1506474590,
+    "last_content_update" : 1506474590289,
+    "path" : "~/R/packages/rxdsapi/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "dcf"
+}
