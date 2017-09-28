@@ -9,12 +9,17 @@
 #' @param api_function a character value with the name of the api function
 #' @param get_stats a boolean variable indicating whether query statistics should be printed
 #'
+#' @import data.table
+#' @import lubridate
+#' @import rkdb
+#' @import jsonlite
+#'
 #' @return a data table with the results of the query
 #' @rdname process_query
 #' @export
 process_query <- function(api_function,get_stats="FALSE",...){
   startTime  <- Sys.time()
-  queryText   <- URLencode(as.character(jsonlite::toJSON(list(...),force=TRUE)))
+  queryText   <- URLencode(as.character(toJSON(list(...),force=TRUE)))
   print (queryText)
   connTest    <- test_connection()
   if(connTest$cond==TRUE) {reset_connection(); cat("Please rerun previous command");return("")}
