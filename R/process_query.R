@@ -14,7 +14,7 @@
 #' @export
 process_query <- function(api_function,get_stats="FALSE",...){
   startTime  <- Sys.time()
-  queryText   <- URLencode(as.character(toJSON(list(...),force=TRUE)))
+  queryText   <- URLencode(as.character(jsonlite::toJSON(list(...),force=TRUE)))
   print (queryText)
   connTest    <- test_connection()
   if(connTest$cond==TRUE) {reset_connection(); cat("Please rerun previous command");return("")}

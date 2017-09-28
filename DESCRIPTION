@@ -1,7 +1,7 @@
 Package: rxdsapi
 Type: Package
 Title: API for RXDS KDB+ Applications
-Version: 0.1.0
+Version: 0.1.1
 Author: person("Nataraj", "Dasgupta", email = "nd@rxdatascience.com", 
   role = c("aut", "cre"))
 Maintainer: The package maintainer <nd@rxdatascience.com>
